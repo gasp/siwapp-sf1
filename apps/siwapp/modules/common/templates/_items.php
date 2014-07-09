@@ -3,7 +3,7 @@
   <thead>
     <tr>
       <?php if($sf_user->has_module('products')):?>
-      <th><?php echo __('Product') ?></th>
+      <th><?php echo __('Product reference') ?></th>
       <?php endif?>
       <th><?php echo __('Description') ?></th>
       <th class="right"><?php echo __('Unit Cost') ?></th>
