@@ -338,7 +338,7 @@
       </trans-unit>
       <trans-unit>
         <source>Weeks</source>
-        <target></target>
+        <target>Semaines</target>
       </trans-unit>
       <trans-unit>
         <source>Days</source>
@@ -362,7 +362,7 @@
       </trans-unit>
       <trans-unit>
         <source>Series</source>
-        <target></target>
+        <target>Séries</target>
       </trans-unit>
       <trans-unit>
         <source>Create every</source>
@@ -386,32 +386,40 @@
       </trans-unit>
       <!-- ##### ESTIMATES ##### -->
       <trans-unit>
+        <source>Estimate</source>
+        <target>Devis</target>
+      </trans-unit>
+      <trans-unit>
         <source>Estimates</source>
-        <target></target>
+        <target>Devis</target>
       </trans-unit>
       <trans-unit>
         <source>New Estimate</source>
-        <target></target>
+        <target>Nouveau Devis</target>
       </trans-unit>
       <trans-unit>
         <source>Save and create invoice</source>
-        <target></target>
+        <target>Enreigistrer et créer une facture</target>
       </trans-unit>
       <trans-unit>
         <source>The estimate was successfully saved.</source>
-        <target></target>
+        <target>Le devis a été enregistré</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The estimate was successfully sent.</source>
+        <target>Le devis a bien été envoyé.</target>
       </trans-unit>
       <trans-unit>
         <source>The invoice was successfully created.</source>
-        <target></target>
+        <target>La facture a été créée</target>
       </trans-unit>
       <trans-unit>
         <source>The invoice could not be created due to an error.</source>
-        <target></target>
+        <target>La facture n'a pas été créée et c'est la merde</target>
       </trans-unit>
       <trans-unit>
         <source>Estimate details</source>
-        <target></target>
+        <target>Détails du devis</target>
       </trans-unit>
       <!-- ##### CUSTOMERS ##### -->
       <trans-unit>
@@ -473,11 +481,11 @@
       <!-- ##### PRODUCTS ##### -->
       <trans-unit>
         <source>Products</source>
-        <target></target>
+        <target>Produits</target>
       </trans-unit>
       <trans-unit>
         <source>New Product</source>
-        <target></target>
+        <target>Nouveau produit</target>
       </trans-unit>
       <trans-unit>
         <source>Product info</source>
@@ -558,11 +566,11 @@
       </trans-unit>
       <trans-unit>
         <source>Rejected</source>
-        <target></target>
+        <target>Refusé</target>
       </trans-unit>
       <trans-unit>
         <source>Approved</source>
-        <target></target>
+        <target>Accepté</target>
       </trans-unit>
       <trans-unit>
         <source>Series</source>
@@ -1016,7 +1024,7 @@
       </trans-unit>
       <trans-unit>
         <source>No selection. Nothing to do.</source>
-        <target></target>
+        <target>Rien n'a été sélectionné.</target>
       </trans-unit>
       <trans-unit>
         <source>Net</source>
@@ -1024,7 +1032,7 @@
       </trans-unit>
       <trans-unit>
         <source>%d customers could not be saved because they have associated data.</source>
-        <target></target>
+        <target>%d clients n'ont pas pu être enregistrés parce qu'ils ont des données associées.</target>
       </trans-unit>
     </body>
   </file>
