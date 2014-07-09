@@ -354,7 +354,7 @@
       </trans-unit>
       <trans-unit id="106">
         <source>Make sure the %1% directory is writable (%2%)</source>
-        <target>Assurez-vous que le dossier %1% et accessible en écriture</target>
+        <target>Assurez-vous que le dossier %1% et accessible en écriture (%2%)</target>
       </trans-unit>
       <trans-unit id="107">
         <source>Siwapp Upgrade</source>
