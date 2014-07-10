@@ -47,7 +47,8 @@ class CommonForm extends BaseCommonForm
                              'contact_person'=> 'Contact Person',
                              'invoicing_address'=> 'Invoicing Address',
                              'shipping_address'=> 'Shipping Address',
-                             'customer_email'=> 'Client Email Address'
+                             'customer_email'=> 'Client Email Address',
+                             'customer_phone'=> 'Client Phone Number'
                              );
 
     $this->widgetSchema->setHelps(array_merge($this->widgetSchema->getHelps(),$common_defaults));
@@ -67,6 +68,7 @@ class CommonForm extends BaseCommonForm
                                                        'invalid' => 'Invalid client email address'
                                                        )
                                                      );
+    $this->validatorSchema['customer_phone']  = new sfValidatorString(array('required'=>false));
     $this->validatorSchema['customer_name']  = new sfValidatorString(array('required' => true));
 
     $this->validatorSchema['series_id']  = new sfValidatorString(array('required'=>true),array('required'=>'The invoice serie is mandatory'));

@@ -18,6 +18,7 @@
  * @method string              getNameSlug()          Returns the current record's "name_slug" value
  * @method string              getIdentification()    Returns the current record's "identification" value
  * @method string              getEmail()             Returns the current record's "email" value
+ * @method string              getPhone()             Returns the current record's "phone" value
  * @method string              getContactPerson()     Returns the current record's "contact_person" value
  * @method clob                getInvoicingAddress()  Returns the current record's "invoicing_address" value
  * @method clob                getShippingAddress()   Returns the current record's "shipping_address" value
@@ -57,6 +58,10 @@ abstract class BaseCustomer extends sfDoctrineRecord
              'type' => 'string',
              'length' => 100,
              ));
+         $this->hasColumn('phone', 'string', 100, array(
+              'type' => 'string',
+              'length' => 100,
+              ));
         $this->hasColumn('contact_person', 'string', 100, array(
              'type' => 'string',
              'length' => 100,

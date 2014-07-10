@@ -6,6 +6,7 @@ Customer:
     name: string(100)
     name_slug: string(100)
     identification: string(50)
+    phone: string(50)
     email: string(100)
     contact_person: string(100)
     invoicing_address: clob
@@ -28,6 +29,7 @@ Common:
     customer_name: string(100)
     customer_identification: string(50)
     customer_email: string(100)
+    customer_phone: string(100)
     invoicing_address: clob
     shipping_address: clob
     contact_person: string(100)

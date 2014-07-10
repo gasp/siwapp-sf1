@@ -471,6 +471,18 @@
         <target>Email du client</target>
       </trans-unit>
       <trans-unit>
+        <source>Client Phone</source>
+        <target>Téléphone du client</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Client Email Address</source>
+        <target>Adresse e-mail du client</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Client Phone number</source>
+        <target>Numéro de téléphone du client</target>
+      </trans-unit>
+      <trans-unit>
         <source>The customer has not been saved due to some errors.</source>
         <target>Des erreus ont empêchés la sauvegarde du client</target>
       </trans-unit>

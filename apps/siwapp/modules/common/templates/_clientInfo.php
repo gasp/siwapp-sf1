@@ -7,6 +7,9 @@
     </li>
     <li>
       <span class="_50"><?php echo render_tag($invoiceForm['contact_person'])?></span>
+    </li>
+    <li>
+      <span class="_50"><?php echo render_tag($invoiceForm['customer_phone'])?></span>
       <span class="_50"><?php echo render_tag($invoiceForm['customer_email'])?></span>
     </li>
     <li>
@@ -29,6 +32,7 @@ echo javascript_tag("
           parsed[parsed.length] = { data: [ data[key].customer, 
             data[key].customer_identification, 
             data[key].contact_person,
+            data[key].customer_phone,
             data[key].customer_email,
             data[key].invoicing_address,
             data[key].shipping_address
@@ -40,11 +44,12 @@ echo javascript_tag("
       matchContains: true
     }))
     .result(function(event, item) {
-      $('#".$invoiceForm['customer_identification']->renderId()."').val(item[1]);
+     console.log(item); $('#".$invoiceForm['customer_identification']->renderId()."').val(item[1]);
       $('#".$invoiceForm['contact_person']->renderId()."').val(item[2]);
-      $('#".$invoiceForm['customer_email']->renderId()."').val(item[3]);
-      $('#".$invoiceForm['invoicing_address']->renderId()."').val(item[4]);
-      $('#".$invoiceForm['shipping_address']->renderId()."').val(item[5]);
+      $('#".$invoiceForm['customer_phone']->renderId()."').val(item[3]);
+      $('#".$invoiceForm['customer_email']->renderId()."').val(item[4]);
+      $('#".$invoiceForm['invoicing_address']->renderId()."').val(item[5]);
+      $('#".$invoiceForm['shipping_address']->renderId()."').val(item[6]);
     });
 ");
 

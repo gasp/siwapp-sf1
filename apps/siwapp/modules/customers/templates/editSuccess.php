@@ -25,6 +25,9 @@ $customer = $customerForm->getObject();
     </li>
     <li>
       <span class="_50"><?php echo render_tag($customerForm['contact_person'])?></span>
+    </li>
+    <li>
+      <span class="_50"><?php echo render_tag($customerForm['phone'])?></span>
       <span class="_50"><?php echo render_tag($customerForm['email'])?></span>
     </li>
     <li>

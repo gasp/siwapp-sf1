@@ -10,6 +10,7 @@
  * @property string $customer_name
  * @property string $customer_identification
  * @property string $customer_email
+ * @property string $customer_phone
  * @property clob $invoicing_address
  * @property clob $shipping_address
  * @property string $contact_person
@@ -48,6 +49,7 @@
  * @method string              getCustomerName()            Returns the current record's "customer_name" value
  * @method string              getCustomerIdentification()  Returns the current record's "customer_identification" value
  * @method string              getCustomerEmail()           Returns the current record's "customer_email" value
+ * @method string              getCustomerPhone()           Returns the current record's "customer_phone" value
  * @method clob                getInvoicingAddress()        Returns the current record's "invoicing_address" value
  * @method clob                getShippingAddress()         Returns the current record's "shipping_address" value
  * @method string              getContactPerson()           Returns the current record's "contact_person" value
@@ -146,6 +148,10 @@ abstract class BaseCommon extends sfDoctrineRecord
              'type' => 'string',
              'length' => 100,
              ));
+         $this->hasColumn('customer_phone', 'string', 100, array(
+              'type' => 'string',
+              'length' => 100,
+              ));
         $this->hasColumn('invoicing_address', 'clob', null, array(
              'type' => 'clob',
              ));

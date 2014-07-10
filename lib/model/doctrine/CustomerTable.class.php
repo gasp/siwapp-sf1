@@ -96,6 +96,7 @@ class CustomerTable extends Doctrine_Table
       $res[$i]['customer'] = $item->getName();
       $res[$i]['customer_identification'] = $item->getIdentification();
       $res[$i]['customer_email'] = $item->getEmail();
+      $res[$i]['customer_phone'] = $item->getPhone();
       $res[$i]['contact_person'] = $item->getContactPerson();
       $res[$i]['invoicing_address'] = $item->getInvoicingAddress();
       $res[$i]['shipping_address'] = $item->getShippingAddress();

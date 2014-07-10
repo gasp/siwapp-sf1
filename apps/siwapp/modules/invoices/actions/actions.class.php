@@ -65,7 +65,8 @@ class invoicesActions extends sfActions
                           'contact_person'=> $i18n->__('Contact Person'),
                           'invoicing_address'=> $i18n->__('Invoicing Address'),
                           'shipping_address'=> $i18n->__('Shipping Address'),
-                          'customer_email'=> $i18n->__('Client Email Address')
+                          'customer_email'=> $i18n->__('Client Email Address'),
+                          'customer_phone'=> $i18n->__('Client Phone Number')
                           ));
     $this->invoiceForm = new InvoiceForm($invoice, array('culture'=>$this->culture));
     $this->title       = $i18n->__('New Invoice');
